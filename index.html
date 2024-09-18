@@ -1,0 +1,54 @@
+<html lang="en"></html>
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> static resume builder</title>
+    <link rel="stylesheet"href="style.css"> 
+ </head>
+ <body>
+    <h1>Static Resume Builder By Hafsa Sohail</h1>
+    <form id="resumeform">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <label for="name">Name:</label>
+        <input type="text"id="name"name="name"required><br>
+
+        <label for="email">Email:</label>
+        <input type="email"id="email"name="email"required><br>
+        <label for="phone">Phone:</label>
+        <input type="tel"id="phone"name="phone"required><br>
+        <label for="phone">Address:</label>
+        <input type="add"id="add"name="add"required><br>
+
+   <!--Profile Picture  -->
+           <label for="profilePicture">Profile Picture </label>
+           <input type="file" id="profilePicture" name="profilePicture" accept="images/*"  required>
+
+        </fieldset>
+
+      <fieldset>
+        <legend>Education</legend>
+        <label for="Education">Education</label>
+        <textarea id="Education" name="Education" rows="4"required></textarea><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Experience</legend>
+        <label for="Experience">Experience</label>
+        <textarea id="Experience" name="Experience" rows="4"required></textarea><br>
+      </fieldset>
+
+      <fieldset>
+        <legend>Skills</legend>
+        <label for="Skills">Skills</label>
+        <textarea id="Skills" name="Skills" rows="4"required></textarea><br>
+      </fieldset>
+      <button type="Submit"></buttontype>Generate resume below</button>
+
+
+
+      
+      
+    </form>
+ </body>
+ </html>
